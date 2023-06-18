@@ -1,0 +1,14 @@
+var idade = 25; 
+
+var categoria;
+if (idade < 10) {
+  categoria = "infantil";
+} else if (idade >= 10 && idade <= 18) {
+  categoria = "juvenil";
+} else if (idade > 18 && idade <= 60) {
+  categoria = "adulto";
+} else {
+  categoria = "idoso";
+}
+
+console.log(categoria); 
