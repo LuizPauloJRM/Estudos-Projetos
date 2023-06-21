@@ -137,3 +137,9 @@ body{
     color: #98F5FF;
     margin-bottom: 15px;
 }
+.figure{
+   
+    width: 5%;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+}
