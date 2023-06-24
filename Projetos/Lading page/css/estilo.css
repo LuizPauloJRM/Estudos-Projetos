@@ -9,7 +9,6 @@
 body{
     font-size: 100%;
     background-image: linear-gradient(330deg, #a0abff 0, #486ee5 50%, #003583 100%);
-
 }
 
 
@@ -30,7 +29,7 @@ body{
 }
 
 .cabeçalho-menu-item{
-    font-family: 'sarala', sans-serif;
+    font-family: "Poppins" , sans-serif;
     color: #98F5FF;
     font-size: 18px;
     font font-weight: 400;
@@ -56,12 +55,12 @@ body{
 }
  
 .conteudo-principal-escrito-titulo{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Poppins" , sans-serif;
     color: #98F5FF;
 }
 .conteudo-principal-subtitulo{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-    font-weight: 400;
+    font-family: "Poppins" , sans-serif;
+    font-weight:400;
     font-size: 25px;
     color: #ecd6c4;
 }
@@ -78,14 +77,14 @@ body{
     background-color: rgba(236, 214, 196, 0.53);
 }
 .conteudo-principal-escrito-botao{
-    background-color: #BBFFFF;
-    width: 200px;
-    border: none;
-    border-radius: 20px;
-    font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:#486ee5;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    color: #98F5FF;
+    background: transparent;
+    border:solid 1px #98F5FF;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    width: 150px;
 
 
 }
@@ -104,7 +103,7 @@ body{
     padding-top: 30px;
     font-size: 25px;
     font-weight: 400;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Poppins" , sans-serif;
     color: #98F5FF;
     margin-bottom: 18px;
 
@@ -113,7 +112,7 @@ body{
 .conteudo-secundario-paragrafo{
     font-size: 25px;
     font-weight: 200;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:"Poppins" , sans-serif;
 
 }
 
@@ -133,13 +132,14 @@ body{
     padding-top: 30px;
     font-size: 40px;
     font-weight: 400;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Poppins" , sans-serif;
     color: #98F5FF;
     margin-bottom: 15px;
 }
-.figure{
-   
-    width: 5%;
+.figure {
+    width: 50%;
     padding: 5px;
     margin: 0px 10px 10px 0;
-}
+    display: grid;
+
+} 
