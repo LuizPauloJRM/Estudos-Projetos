@@ -5,7 +5,7 @@ public class Exercicio04 {
 		Scanner sc= new Scanner("System.in");
 		System.out.println("Digite um número:");
 		int num1=sc.nextInt();
-		System.out.println("Digite outro número")
+		System.out.println("Digite outro número");
 		
 	}
 }
