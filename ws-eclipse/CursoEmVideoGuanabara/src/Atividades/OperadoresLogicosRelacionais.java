@@ -9,8 +9,8 @@ public class OperadoresLogicosRelacionais {
 		System.out.println(r);
 		int n3=24;
 		int n4=23;
-		int y=(n3<n4)?1:89;
-		System.out.println(y);//Neste caso n3 nao e maioe que n4
+		int y=(n3<n4)?1:89;//A variavel menor que esta no inicio,vai receber ou 1 ou 89,se n3 for menor que n4
+		System.out.println(y);//Neste caso n3 nao e maior que n4
 		int n5=80;
 		int n6=90;
 		int b=(n5<n6)?n6:n5;

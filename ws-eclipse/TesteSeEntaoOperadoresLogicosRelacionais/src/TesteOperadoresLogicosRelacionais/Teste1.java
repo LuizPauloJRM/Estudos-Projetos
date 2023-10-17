@@ -6,7 +6,9 @@ public class Teste1 {
 		Scanner sc=new Scanner(System.in);
 		int n1=24;
 		int n2=23;
-		int r= (n1 > n2)if else;
+		if(n1>n2){
+		(n1+n2);
+		}
 		
 	}
 
