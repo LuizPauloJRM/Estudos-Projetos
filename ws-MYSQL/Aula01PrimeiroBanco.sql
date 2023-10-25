@@ -24,3 +24,8 @@ nome varchar(80) not null,
 titulacao varchar(80) not null
 );
 desc professor;
+/*Alterar a tabela aluno e vai adicionar uma nova coluna chamada telefone do tipo varchar com 15 caracteres*/
+alter table aluno add column telefone varchar(15);
+/*Alterar a tabela aluno e apagará a coluna email*/
+alter table aluno drop column email;
+desc aluno
