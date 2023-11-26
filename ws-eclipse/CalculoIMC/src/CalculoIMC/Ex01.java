@@ -1,6 +1,15 @@
 package CalculoIMC;
 import java.util.Scanner;
 public class Ex01 {
+//imc=peso/altura elevado por 2
+//a) < 16 - Magreza grave
+//b) 16 a < 17 - Magreza moderada
+//c) 17 a < 18,5 - Magreza leve
+//d) 18,5 a < 25 - Saudável
+//e) 25 a < 30 - Sobrepeso
+//f) 30 a < 35 - Obesidade Grau I
+//g) 35 a < 40 - Obesidade Grau II (severa)
+//h) >= 40 - Obesidade Grau III (mórbida)
 
 	public static void main(String[] args) {
 		  Scanner entrada = new Scanner(System.in);  
