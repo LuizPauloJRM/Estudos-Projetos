@@ -51,6 +51,6 @@
         select*from tb_empregado;
         select curdate();/*data de hoje*/
         select nome,
-				timestampdiff(YEAR,dt_nascimento, curdate())/*Diferença de tempo pra data*/
+				timestampdiff(YEAR,dt_nascimento, curdate())as idade/*Diferença de tempo pra data*/
 				from tb_empregado;
                 
