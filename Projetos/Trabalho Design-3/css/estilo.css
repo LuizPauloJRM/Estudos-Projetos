@@ -1,0 +1,20 @@
+.background-cor-sobre-mim{
+    background-color: #5a23c8;
+    width: 100%;
+    padding: 100px 0px;
+    
+}
+.main-eu{
+    background-color: #5a23c8;
+    width: 430px;
+    height: auto;
+    display: flex;
+}
+button{
+    background-color: #5a23c8;
+    text-transform: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 20px;
+    
+}
