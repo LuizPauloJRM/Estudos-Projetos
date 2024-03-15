@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+    <style>
+        body{
+            font: 20px arial
+        }
+    </style>
+</head>
+<body>
+    <h2>Sistemas de nacionalidade</h2>
+    nacionalidade: <input type="text" name="nac" id="txtnac">
+    <input type="button" value="Verificar" onclick="Verificar">
+    <div id="res">
+    <script>
+        function Verificar(){
+            var nac =window.document.querySelector('input#txtnac');
+            var res = window.document.querySelector('div#res')
+            var nac = Text(txtnac.value)
+            res.innerHTML = `<p>Voce vive em <strong>${nac}km/h</strong></p>`
+            if (nac==Brasil){
+                res.innerHTML +=`<p>Voce é `
+            }
+        }
+    </script>
+
+</body>
+</html>

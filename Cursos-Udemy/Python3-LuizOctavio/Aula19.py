@@ -1,6 +1,8 @@
 #Inverter expressões 
 #not True= False 
 #not False= True
+#print(not 0)
+
 senha = input('Senha: ')
 
 

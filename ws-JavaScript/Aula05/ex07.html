@@ -19,12 +19,12 @@
     </style>
 </head>
 <body>
-    <div id="area"> interação</div> 
+    <div id="area"> interação...</div> 
    
 
  <!--   <div id='area' onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()"> Interação</div> -->
     <script>
-        var a = window.document.getElementById('area')
+        var a = window.document.getElementById('area')//ID
         a.addEventListener('click',clicar)
         a.addEventListener('mouseseenter',entrar)
         a.addEventListener('mouseout',sair)
@@ -35,7 +35,7 @@
         }
         function entrar(){
             a.innerText='Entrou!'
-            a.style.background= ''  
+            
         }
     
         function sair(){
