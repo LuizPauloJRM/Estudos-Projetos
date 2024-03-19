@@ -12,16 +12,16 @@
 </head>
 <body>
     <h2>Sistemas de multas</h2>
-    velocidade do carro: <input type="number" name="vel" id="txtvel"> km/h
-    <input type="button" value="Verificar" onclick="calcular()">
+    velocidade do carro: <input type="number" name="vel" id="txtvel"> km/h <!-- Pedindo a velocidade -->
+    <input type="button" value="Verificar" onclick="calcular()"><!-- Botão e valor do botao que é "Verificar", "Calcular ação" -->
     <div id="res">
     <script>
-        function calcular(){
-            var txtvel = window.document.querySelector('input#txtvel')
-            var res = window.document.querySelector('div#res') 
-            var vel = Number(txtvel.value)
+        function calcular(){//Criando uma função , que vai calcular a velocidade 
+            var txtvel = window.document.querySelector('input#txtvel')//Ligação do JavaScript com "txtvel" do HTML com id"txtvel"
+            var res = window.document.querySelector('div#res') //resultado div com uma id "res"
+            var vel = Number(txtvel.value)//pegar a velocidade jogando dentro da variavel "vel" 
             res.innerHTML = `<p>Sua velocidade atual é de <strong>${vel}km/h</strong></p>`
-            if(vel> 60){
+            if(vel> 60){//Lógica
               res.innerHTML +=`<p>Voce foi <strong>MULTADO</strong> por excesso de velocidade</p>`  
             }
             res.innerHTML +=`<p>Dirija sempre com sinto de segurança</p>`

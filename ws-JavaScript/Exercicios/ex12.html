@@ -22,7 +22,9 @@
             var nac = Text(txtnac.value)
             res.innerHTML = `<p>Voce vive em <strong>${nac}km/h</strong></p>`
             if (nac==Brasil){
-                res.innerHTML +=`<p>Voce é `
+                res.innerHTML +=`<p>Voce é brasileiro</p>`
+            }else{
+                res.innerHTML +=`<p>Voce é estrangeiro</p>`
             }
         }
     </script>

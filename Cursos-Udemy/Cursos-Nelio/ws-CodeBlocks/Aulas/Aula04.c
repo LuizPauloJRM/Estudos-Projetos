@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
     int x, y;
     x = 5;
     y = 2 * x;
