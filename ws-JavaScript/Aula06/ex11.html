@@ -21,7 +21,7 @@
             var res = window.document.querySelector('div#res') //resultado div com uma id "res"
             var vel = Number(txtvel.value)//pegar a velocidade jogando dentro da variavel "vel" 
             res.innerHTML = `<p>Sua velocidade atual é de <strong>${vel}km/h</strong></p>`
-            if(vel> 60){//Lógica
+            if(vel> 60){//Lógica if, else
               res.innerHTML +=`<p>Voce foi <strong>MULTADO</strong> por excesso de velocidade</p>`  
             }
             res.innerHTML +=`<p>Dirija sempre com sinto de segurança</p>`
