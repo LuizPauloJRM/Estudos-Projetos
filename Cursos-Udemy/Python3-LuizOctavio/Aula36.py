@@ -28,6 +28,7 @@ print('Laço com repetições infinitas')
 #Exemplo For (Para), iteravel passando em cada uma com uma iteração , sabe o tamanho que vai se repetir 
 texto = 'Python'
 novo_texto=''
+#Para cada letra o iteração exiba uma letra na tela
 for letra in texto:
     novo_texto += f'*{letra}'
     print(letra)
