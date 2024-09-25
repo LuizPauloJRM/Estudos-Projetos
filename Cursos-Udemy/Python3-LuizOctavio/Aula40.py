@@ -24,7 +24,7 @@ for numero in numeros:
 print('')
 #For letra in text solicitando para o objeto o iterador dele 
 text='Paulo'#Iteravel
-iterador = iter(texto)#iterator
+iterador = iter(text)#iterator
 
 while True:
     try:
