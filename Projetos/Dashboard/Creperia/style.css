@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1100;1,300;1,400;1,500;1,700;1,900&display=swap'); 
+
+/*Zerar*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    color: #FFFFFF;
+    background: #87CEEB;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+ul{
+  list-style: none; 
+}
+html{
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+}
+nav{
+    max-width: 1200px;
+    margin:auto;
+    padding : 1.5rem 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.menu{
+    display: flex;
+    gap: 1.5rem;
+    color: #5F9EA0;
+
+}
+.Cadastro{
+    font-weight: 600;
+
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
