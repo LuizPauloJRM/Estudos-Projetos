@@ -69,18 +69,19 @@ main{
     padding: 0rem 2rem;
     margin: auto;
     overflow: clip;
-
-
-}
-.pricipal{
-
+    align-items: center;
 }
 .hero-conteudo{
     display: flex;
     flex-direction: column;
     gap:1rem;
-    
+        
 }
+  
+.pricipal{
+    background: ;
+}
+
 /*
 .hero-imagens-container{
     max-width: 45%;
@@ -96,3 +97,96 @@ main{
 }    
 */
 
+.destaque{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.marrom{
+    color: #A45A49;
+}
+h1{
+    font-family:;
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+hr{
+    background: #FFFFFF;
+}
+
+.hero-subtitulo{
+
+}
+
+.botao-container{
+    width: 100%;
+    max-width: 1120px;
+    padding: 1rem;
+    margin: auto;
+    transform: translate("0, -50%");
+}
+.button{
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: ;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 2rem;
+    max-width: 1120px;
+    margin: auto;
+
+}
+.cabecalho-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+.titulo-card{
+    font-family: ;
+    font-size: 32px;
+    font-weight: 700;
+    color: #A45A49;
+}
+.subtitulo-cards{
+    color: #A45A49;
+    font-family: ;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.card-container{
+    padding: 0rem 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+}
+.caixas{
+    background:hwb(210 55% 0%);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 29rem;
+    display: flex;
+}
+.caixa-cabecalho{/*2 itens*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+
+}
+footer{
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    background:hwb(210 55% 0%);
+}
