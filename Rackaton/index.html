@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Projeto de Leitura em Libras</title>
+  <!-- Script para carregar a API do VLibras -->
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+</head>
+<body>
+  <!-- Conteúdo da página -->
+  <h1>Bem-vindo ao Projeto de Leitura em Libras</h1>
+  <p>Este é um exemplo de texto que pode ser lido em Libras.</p>
+
+  <!-- Elemento do VLibras para ativar a tradução -->
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script>
+    // Inicialização do VLibras
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+</body>
+</html>
