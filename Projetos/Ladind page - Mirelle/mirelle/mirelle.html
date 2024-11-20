@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Site Pessoal</title>
+  <link href="Css/estilo.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <hr>
+  <a href="#sobre">Sobre Mim</a> |
+  <a href="#atividades">Atividades Favoritas</a> |
+  <a href="#formacao">Formação Acadêmica</a> |
+  <a href="#contato">Contato</a>
+
+  <nav class="navbar bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Portifólio Mirelle</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Contato comigo</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link" href="https://api.whatsapp.com/send?phone=61994309372" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="30px">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/_miiirelle_" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt="Instagram"
+                  width="30px">
+              </a>
+            </li>
+            <!-- Link para Outlook com ícone -->
+            <li class="nav-item">
+              <a class="nav-link" href="mailto:seuemail@outlook.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Microsoft_Outlook_logo_2019.svg"
+                  alt="Outlook" width="30px">
+              </a>
+            </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <hr>
+  <h1 id="topo" style="text-align: center;">Me conheça melhor</h1>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"
+    style="max-width: 25%; margin: 0 auto;">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img src="WhatsApp Image 2024-11-14 at 10.21.46.jpeg" class="d-block w-100" alt="Imagem 1">
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="WhatsApp Image 2024-11-14 at 10.21.47.jpeg" class="d-block w-100" alt="Imagem 2">
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="foto.jpeg" class="d-block w-100" alt="Imagem 3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Próximo</span>
+    </button>
+  </div>
+
+
+
+  <h2 id="sobre">Sobre Mim</h2>
+  <h3>Nome: Mirelle Cristina da Silva Machado</h3>
+  <h3>Email: mirellecristinac@gmail.com</h3>
+  <h3>Data de nascimento: 08/07/2004</h3>
+  <a href="#topo">Voltar ao início</a>
+
+  <h2 id="atividades">Atividades Favoritas</h2>
+  <h4>Assistir o jogo do meu time</h4>
+  <h4>Ir à academia</h4>
+  <img src="SaoPauloMelhorTime.png" width="90px" alt="Imagem do São Paulo" />
+  <img src="IMG_6800.jpg" width="150px" alt="Imagem de academia" />
+  <br><br>
+  <a href="#topo">Voltar ao início</a>
+
+  <h2 id="formacao">Formação Acadêmica</h2>
+  <h3>Análise e Desenvolvimento de Sistemas (TADS)</h3>
+  <img src="tads.png" width="200px" alt="Logo TADS" />
+  <h4>Expectativas para o curso:</h4>
+  <ul>
+    <h1>
+      Minha expectativa é aprender Banco de Dados na faculdade e aplicar esse conhecimento na prática depois que eu me
+      formar.
+    </h1>
+    <a href="https://docs.oracle.com/en/java/">Java</a>, <a href="https://www.php.net/manual/pt_BR/index.php/">PHP</a> e
+    muito mais
+  </ul>
+  <a href="#topo">Voltar ao início</a>
+
+  <h2>Assista meu vídeo favorito:</h2>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/V9VeD_G23a4?si=S5u0tkKFTfqjZnHf&amp;controls=0"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <a href="#topo">Voltar ao início</a>
+
+  <h2 id="contato">Formulários de Contato e Feedback</h2>
+
+  <form>
+    <h3>Entre em contato comigo:</h3>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="mensagem">Mensagem:</label>
+    <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+
+    <input type="submit" value="Enviar">
+  </form>
+
+  <form>
+    <h3>Deixe seu feedback:</h3>
+    <label for="avaliacao">Avalie nosso site:</label>
+    <select id="avaliacao" name="avaliacao">
+      <option value="excelente">Excelente</option>
+      <option value="bom">Bom</option>
+      <option value="regular">Regular</option>
+      <option value="ruim">Ruim</option>
+    </select>
+
+    <label for="comentario">Comentário:</label>
+    <textarea id="comentario" name="comentario" rows="4"></textarea>
+
+    <input type="submit" value="Enviar Feedback">
+  </form>
+
+  <a href="https://api.whatsapp.com/send?phone=61994309372" id="whatsapp">Me contate no WhatsApp</a>
+  <br><br>
+  <footer class="footer">
+    <p>&copy; 2024 Meu Site Pessoal. Todos os direitos reservados.</p>
+    <p>Fontes utilizadas:</p>
+    <ul class="list-unstyled">
+      <li>
+        <a href="https://getbootstrap.com/" target="_blank" class="text-white">Bootstrap</a> - Framework CSS.
+      </li>
+      <li>
+        <a href="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" target="_blank"
+          class="text-white">Ícone do WhatsApp</a> - Fonte de ícone.
+      </li>
+      <li>
+        <a href="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" target="_blank"
+          class="text-white">Ícone do Instagram</a> - Fonte de ícone.
+      </li>
+      <li>
+        <a href="https://upload.wikimedia.org/wikipedia/commons/5/56/Microsoft_Outlook_logo_2019.svg" target="_blank"
+          class="text-white">Ícone do Outlook</a> - Fonte de ícone.
+      </li>
+      <li>
+        <a href="https://www.w3schools.com/" target="_blank" class="text-white">W3Schools</a> - Referência para HTML,
+        CSS e outras tecnologias web.
+      </li>
+    </ul>
+  </footer>
+
+
+  <a href="#topo">Voltar ao início</a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
