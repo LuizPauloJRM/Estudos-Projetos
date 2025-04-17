@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page - Desafios</title>
+  <link rel="stylesheet" href="Style/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="logo">MinhaLogo</div>
+    <nav>
+      <!-- Ícone de Home -->
+      <a href="#" class="home-link">
+        <i class="fas fa-home"></i> Home
+      </a>
+      <a href="#">Desafios</a>
+      <a href="#">Rankings</a>
+      <a href="#">Regras</a>
+      <!-- Ícone de Perfil -->
+      <a href="#" class="profile-link">
+        <i class="fas fa-user"></i> Perfil
+      </a>
+      <a href="#" class="btn" onclick="toggleProfileMenu()">Entrar</a>
+      <a href="#" class="btn">Cadastrar</a>
+    </nav>
+  </header>
+
+  <!-- Menu de perfil -->
+  <div class="profile-menu" id="profileMenu">
+    <a href="#">Ver Perfil</a>
+    <a href="#">Sair</a>
+  </div>
+
+  <div class="carrossel-container">
+    <div class="carousel">
+      <div class="carousel-item">
+        <img src="https://via.placeholder.com/1200x500?text=Desafio+1" alt="Desafio 1">
+        <div class="carousel-overlay">
+          <h2>Desafio 1</h2>
+          <p>Participe desse incrível desafio agora!</p>
+          <a href="#" class="saiba-mais-btn">Saiba Mais</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://via.placeholder.com/1200x500?text=Desafio+2" alt="Desafio 2">
+        <div class="carousel-overlay">
+          <h2>Desafio 2</h2>
+          <p>Prepare-se para o próximo nível!</p>
+          <a href="#" class="saiba-mais-btn">Saiba Mais</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://via.placeholder.com/1200x500?text=Desafio+3" alt="Desafio 3">
+        <div class="carousel-overlay">
+          <h2>Desafio 3</h2>
+          <p>Desafie seus amigos!</p>
+          <a href="#" class="saiba-mais-btn">Saiba Mais</a>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-nav">
+      <span class="carousel-control prev">&#10094;</span>
+      <span class="carousel-control next">&#10095;</span>
+    </div>
+  </div>
+
+  <script src="js/js.js"></script>
+
+  <main>
+    <!-- Seção Destaques -->
+    <section class="destaques">
+      <h2>Destaques</h2>
+      <div class="card-container">
+        <div class="card">
+          <img src="https://via.placeholder.com/350x200?text=Destaque+1" alt="Destaque 1">
+          <div class="card-body">
+            <h3>Desafio de Codificação</h3>
+            <p>Participe do nosso desafio de codificação e mostre suas habilidades!</p>
+            <a href="#" class="btn-card">Saiba Mais</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://via.placeholder.com/350x200?text=Destaque+2" alt="Destaque 2">
+          <div class="card-body">
+            <h3>Desafio de Criatividade</h3>
+            <p>Libere sua criatividade e conquiste grandes prêmios!</p>
+            <a href="#" class="btn-card">Saiba Mais</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://via.placeholder.com/350x200?text=Destaque+3" alt="Destaque 3">
+          <div class="card-body">
+            <h3>Desafio de Lógica</h3>
+            <p>Teste suas habilidades em lógica com nossos desafios desafiadores!</p>
+            <a href="#" class="btn-card">Saiba Mais</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section class="sobre">
+      <div class="text-content">
+        <h2>Sobre a Plataforma</h2>
+        <p>Esta plataforma tem como objetivo reunir os melhores desafios de programação, lógica e criatividade para você testar suas habilidades, competir com outros participantes e alcançar o topo do ranking!</p>
+      </div>
+    </section>
+
+    <!-- Seção Testemunhos -->
+    <section class="testemunhos">
+      <h2>O que dizem nossos participantes</h2>
+      <div class="carousel">
+        <div class="carousel-item">
+          <blockquote>
+            <p>"Os desafios são muito divertidos e me ajudaram a melhorar minhas habilidades de programação!"</p>
+            <footer>- João Silva</footer>
+          </blockquote>
+        </div>
+        <div class="carousel-item">
+          <blockquote>
+            <p>"Adorei a plataforma! As competições são emocionantes e motivadoras!"</p>
+            <footer>- Maria Souza</footer>
+          </blockquote>
+        </div>
+        <div class="carousel-item">
+          <blockquote>
+            <p>"Amei os desafios de criatividade! Uma ótima maneira de sair da zona de conforto!"</p>
+            <footer>- Pedro Almeida</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="https://via.placeholder.com/80x80" alt="Logo">
+        </div>
+        <div class="footer-links">
+          <a href="#" class="social-link"><i class="fab fa-instagram"></i> Instagram</a>
+          <a href="#" class="social-link"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>

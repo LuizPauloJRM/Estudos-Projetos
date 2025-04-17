@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4fdf4;
+    color: #2e7d32;
+}
+.navbar {
+    background-color: #e8f5e9;
+    padding: 15px;
+}
+.nav-link {
+    color: #388e3c !important;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+.nav-link:hover {
+    color: #1b5e20 !important;
+}
+.welcome-section {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #e8f5e9;
+    color: #1b5e20;
+    padding: 40px;
+}

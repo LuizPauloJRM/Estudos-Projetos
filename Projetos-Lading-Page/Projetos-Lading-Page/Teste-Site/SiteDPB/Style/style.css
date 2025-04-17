@@ -1,0 +1,314 @@
+/* Reset de estilo padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  overflow-x: hidden; /* Impede o overflow horizontal */
+}
+
+/* Estilos para o cabeçalho */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #f1f1f1; /* Cor cinza claro para o fundo */
+  position: fixed; /* Fixa o cabeçalho no topo */
+  top: 0;
+  left: 0;
+  width: 100%; /* Garantir que a largura ocupe toda a tela */
+  z-index: 1000; /* Coloca o cabeçalho acima de outros conteúdos */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  transition: background 0.3s ease-in-out; /* Suaviza a transição de fundo */
+}
+
+/* Logo */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333; /* Cor escura para a logo */
+}
+
+/* Navegação */
+nav {
+  display: flex;
+  gap: 20px; /* Espaçamento entre os links */
+}
+
+nav a {
+  font-size: 16px;
+  color: #333; /* Cor escura para o texto */
+  text-decoration: none; /* Remove o sublinhado */
+  padding: 8px 12px; /* Espaçamento interno para os links */
+  border-radius: 5px; /* Bordas arredondadas para os links */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Efeito de hover */
+}
+
+nav a:hover {
+  background-color: #dcdcdc; /* Cor de fundo mais clara ao passar o mouse */
+  color: #333; /* Cor do texto permanece escura */
+  transform: scale(1.05); /* Aumenta o tamanho do link suavemente */
+}
+
+/* Botões "Cadastrar" e "Entrar" */
+nav .btn {
+  display: inline-block;
+  background-color: #b0b0b0; /* Cor cinza suave para os botões */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px; /* Bordas arredondadas */
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+nav .btn:hover {
+  background-color: #808080; /* Cor de fundo mais escura no hover */
+  transform: scale(1.05);
+}
+
+/* Ajustes para a responsividade */
+@media (max-width: 768px) {
+  nav {
+    gap: 15px; /* Menos espaçamento entre os links */
+  }
+
+  nav a {
+    font-size: 14px; /* Reduz o tamanho da fonte em dispositivos menores */
+    padding: 6px 10px; /* Menor espaçamento interno */
+  }
+
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-links {
+    margin-top: 20px;
+    gap: 15px;
+  }
+
+  .carousel-item img {
+    height: 300px;
+  }
+
+  .saiba-mais-btn {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  .cards-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Menu de perfil */
+.profile-menu {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  display: none;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.profile-menu a {
+  display: block;
+  color: #333;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.profile-menu a:hover {
+  background-color: #f0f0f0;
+}
+
+/* Carrossel */
+.carrossel-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px; /* Espaço para o cabeçalho fixo */
+}
+
+.carousel {
+  display: flex;
+  overflow: hidden;
+  width: 80%;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave no carrossel */
+}
+
+.carousel-item {
+  position: relative;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s ease-in-out; /* Suaviza a transição do carrossel */
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 500px; /* Altura fixa para todas as imagens */
+  object-fit: cover; /* Garantir que a imagem cubra a área sem distorcer */
+  border-radius: 8px; /* Bordas arredondadas para um visual mais suave */
+}
+
+/* Botão Saiba Mais - Centralizado */
+.saiba-mais-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centraliza o botão */
+  padding: 12px 24px;
+  font-size: 18px;
+  color: white;
+  background-color: rgba(0, 115, 230, 0.8); /* Cor de fundo azul translúcido */
+  border: none;
+  border-radius: 30px; /* Bordas arredondadas para o botão */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.saiba-mais-btn:hover {
+  background-color: #0073e6; /* Cor de fundo mais escura ao passar o mouse */
+}
+
+/* Navegação do carrossel */
+.carousel-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.carousel-control {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.carousel-control:hover {
+  background-color: #0073e6;
+}
+
+.carousel-control.prev {
+  left: 10px;
+}
+
+.carousel-control.next {
+  right: 10px;
+}
+
+/* Cards com informações */
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Move o card para cima quando hover */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15); /* Aumenta a sombra */
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-body h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-body p {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Estilos para a seção principal (main) */
+main {
+  padding: 50px 20px;
+  background-color: #ffffff; /* Cor de fundo branca para a seção */
+  margin-top: 40px; /* Espaço entre o carrossel e a seção principal */
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-bottom: 1px solid #ddd; /* Linha de separação entre as seções */
+}
+
+.info .text-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.info .image-content img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Estilos para o rodapé */
+footer {
+  padding: 20px 0;
+  text-align: center;
+  border-top: 1px solid #ddd; /* Linha divisória acima do rodapé */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+}
+.footer-content a {
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+.footer-content a:hover {
+  color: #0073e6; /* Cor azul ao passar o mouse */
+}
+.footer-content .social-icons {
+  display: flex;
+  gap: 10px; /* Espaçamento entre os ícones sociais */
+}   
